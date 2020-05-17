@@ -1,4 +1,4 @@
 # Install
 You can install snake with this command:
 
-curl https://www.github.com/jmlisowski/snake.py/blob/install/install.sh | sudo sh
+curl https://raw.githubusercontent.com/jmlisowski/snake.py/blob/install/install.sh | sudo sh
