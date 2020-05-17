@@ -1,4 +1,4 @@
-https://raw.githubusercontent.com/jmlisowski/snake.py/master/snake.py
+wget https://raw.githubusercontent.com/jmlisowski/snake.py/master/snake.py
 wget https://raw.githubusercontent.com/jmlisowski/snake.py/install/snake
 sudo mkdir /usr/lib/.snake
 sudo mv snake.py /usr/lib/.snake
