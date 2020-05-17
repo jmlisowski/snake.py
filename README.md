@@ -1,2 +1,4 @@
-# snake.py
-I made a snake game in python, and to run it, install python first, open a command prompt, go to the directory the snake.py file is at, and type in: python snake.py
+# Install
+You can install snake with this command:
+
+curl https://www.github.com/jmlisowski/snake.py/blob/install/install.sh | sudo sh
