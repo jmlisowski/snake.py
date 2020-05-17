@@ -3,4 +3,4 @@ I made a snake game in python, and to run it, install python3, and install the s
 
 
 
-P.S. This only works for linux users, now windows(maybe mac)
+P.S. This only works for linux users, not windows(maybe mac)
