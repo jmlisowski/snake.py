@@ -69,12 +69,16 @@ def quit():
     messagebox._show(0,f"You died! Your score was {score}")
     exit()
 
+def pause():
+    messagebox._show(0, "You are pause, press enter to unpause")
+
 # Keyboard bindings
 wn.listen()
 wn.onkeypress(up, "Up")
 wn.onkeypress(down, "Down")
 wn.onkeypress(left, "Left")
 wn.onkeypress(right, "Right")
+wn.onkeypress(pause, "p")
 
 # Main game loop
 
