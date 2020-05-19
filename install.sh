@@ -4,5 +4,7 @@ sudo mkdir /usr/lib/snake
 sudo mv snake.py /usr/lib/snake
 sudo mv snake /usr/bin
 sudo chmod +x /usr/bin/snake
+clear
 echo Type In the this command: snake
 echo and be up and running!
+echo This was made by Jake Lisowski
