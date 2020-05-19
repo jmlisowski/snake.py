@@ -70,7 +70,7 @@ def quit():
     exit()
 
 def pause():
-    messagebox._show(0, "You are paused, click ok or press enter to unpause.")
+    messagebox._show(0, f"You are paused, click ok or press enter to unpause. Your score is {score}")
 
 # Keyboard bindings
 wn.listen()
