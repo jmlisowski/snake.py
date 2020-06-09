@@ -72,8 +72,8 @@ def quit():
 def pause():
     messagebox._show(0, f"You are paused, click ok or press enter to unpause. Your score is {score}")
     
-def forcequit():
-    quit()
+def force_quit():
+    exit()
 
 # Keyboard bindings
 wn.listen()
@@ -82,7 +82,7 @@ wn.onkeypress(down, "Down")
 wn.onkeypress(left, "Left")
 wn.onkeypress(right, "Right")
 wn.onkeypress(pause, "p")
-wn.onkeypress(forcequit, "q")
+wn.onkeypress(force_quit, "q")
 
 # Main game loop
 
